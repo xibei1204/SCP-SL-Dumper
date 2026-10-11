@@ -1,5 +1,14 @@
 # SCP: Secret Laboratory IL2CPP 运行时 Dumper
 
+[English](README_EN.md) | [简体中文](README.md)
+
+> [!IMPORTANT]
+> **免责声明 (Disclaimer)**  
+> 本项目仅供计算机技术研究、逆向工程学习与安全分析用途。
+> - **切勿用于非法行为**：严禁将本项目及其生成的任何代码、数据用于制作游戏外挂、辅助工具、破解补丁，或从事任何破坏游戏平衡、侵犯知识产权及违反法律法规的行为。
+> - **非官方声明**：本项目为独立开源研究工具，与 Northwood Studios 或《SCP: Secret Laboratory》官方无任何隶属、合作或认可关系。
+> - **风险自负**：使用者须自行承担使用本项目所产生的全部风险与责任（包括但不限于游戏账号封禁、数据损失或法律纠纷），作者及贡献者概不承担任何直接或间接责任。
+
 本项目用于从本机安装的《SCP: Secret Laboratory》客户端生成 `dump.cs`。
 Dumper 通过 Frida 调用 `GameAssembly.dll` 导出的 IL2CPP 运行时 API，
 枚举程序集、类型和成员信息，最终输出 C# 风格的转储文件。
